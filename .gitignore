@@ -1,0 +1,27 @@
+# Cargo build output
+/target/
+
+# If you use the Cargo.lock for libraries, keep it; for binaries, it's optional
+Cargo.lock
+
+# Ignore editor swap/backup files
+*.swp
+*.swo
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled binaries (if you output them somewhere else)
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore logs
+*.log
